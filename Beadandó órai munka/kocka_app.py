@@ -144,7 +144,7 @@ class KockaApp(KockaDobas):
                 encoding="utf-8"
             ) as fajl:
 
-                fajl.write("Kockadobás eredményei:\n")
+                fajl.write("Dobás eredményei:\n")
 
                 for szam, mennyiseg in self.eredmenyek.items():
                     fajl.write(
@@ -385,7 +385,7 @@ class KockaApp(KockaDobas):
     def adatbazis_urites(self):
         valasz = messagebox.askyesno(
             "Megerősítés",
-            "Biztosan törölni szeretnéd az adatbázist?"
+            "Biztosan törölni szeretné az adatbázist?"
         )
 
         if valasz:
@@ -433,5 +433,5 @@ class KockaApp(KockaDobas):
         except requests.exceptions.ConnectionError:
             messagebox.showerror(
                 "Kapcsolódási hiba",
-                "Nem sikerült kapcsolódni a szerverhez!"
+                "Nem sikerült kapcsolódni a szerverhez!!"
             )

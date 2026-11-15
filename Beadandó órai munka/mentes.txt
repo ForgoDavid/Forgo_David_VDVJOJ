@@ -135,3 +135,43 @@ Kockadobás eredményei:
 5: 39 alkalommal
 6: 33 alkalommal
 
+Kockadobás eredményei:
+1: 40 alkalommal
+2: 53 alkalommal
+3: 77 alkalommal
+4: 65 alkalommal
+5: 53 alkalommal
+6: 59 alkalommal
+
+Kockadobás eredményei:
+1: 40 alkalommal
+2: 53 alkalommal
+3: 77 alkalommal
+4: 65 alkalommal
+5: 53 alkalommal
+6: 59 alkalommal
+
+Kockadobás eredményei:
+1: 53 alkalommal
+2: 39 alkalommal
+3: 29 alkalommal
+4: 49 alkalommal
+5: 44 alkalommal
+6: 45 alkalommal
+
+Kockadobás eredményei:
+1: 29 alkalommal
+2: 30 alkalommal
+3: 21 alkalommal
+4: 23 alkalommal
+5: 26 alkalommal
+6: 16 alkalommal
+
+Dobás eredményei:
+1: 24 alkalommal
+2: 15 alkalommal
+3: 26 alkalommal
+4: 28 alkalommal
+5: 18 alkalommal
+6: 12 alkalommal
+
