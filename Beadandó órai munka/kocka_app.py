@@ -155,7 +155,7 @@ class KockaApp(KockaDobas):
 
             messagebox.showinfo(
                 "Mentés",
-                "Az eredmények sikeresen mentve TXT-be!"
+                "Az eredmények mentve TXT-be!"
             )
 
         except OSError:
@@ -201,7 +201,7 @@ class KockaApp(KockaDobas):
 
             messagebox.showinfo(
                 "Mentés",
-                "Az eredmények sikeresen mentve CSV-be!"
+                "Az eredmények mentve CSV-be!"
             )
 
         except OSError:
@@ -261,7 +261,7 @@ class KockaApp(KockaDobas):
 
             messagebox.showinfo(
                 "Mentés",
-                "Az eredmények sikeresen mentve JSON-ba!"
+                "Az eredmények mentve JSON-ba!"
             )
 
         except OSError:
@@ -300,7 +300,7 @@ class KockaApp(KockaDobas):
     def mentes_sql(self):
         if sum(self.eredmenyek.values()) == 0:
             messagebox.showwarning(
-                "Figyelmeztetés",
+                "Figyelem",
                 "Először végezz el egy dobást!"
             )
             return
@@ -335,7 +335,7 @@ class KockaApp(KockaDobas):
 
             messagebox.showinfo(
                 "Mentés",
-                "Az eredmények sikeresen mentve az adatbázisba!"
+                "Az eredmények mentve az adatbázisba!"
             )
 
         except sqlite3.Error as hiba:
@@ -385,7 +385,7 @@ class KockaApp(KockaDobas):
     def adatbazis_urites(self):
         valasz = messagebox.askyesno(
             "Megerősítés",
-            "Biztosan törölni szeretnéd az összes adatbázis-rekordot?"
+            "Biztosan törölni szeretnéd az adatbázist?"
         )
 
         if valasz:
@@ -402,7 +402,7 @@ class KockaApp(KockaDobas):
 
                 messagebox.showinfo(
                     "Törlés",
-                    "Az adatbázis sikeresen kiürítve!"
+                    "Az adatbázis kiürítve!"
                 )
 
             except sqlite3.Error as hiba:
@@ -433,5 +433,5 @@ class KockaApp(KockaDobas):
         except requests.exceptions.ConnectionError:
             messagebox.showerror(
                 "Kapcsolódási hiba",
-                "Nem sikerült kapcsolódni a backend szerverhez!"
+                "Nem sikerült kapcsolódni a szerverhez!"
             )
